@@ -70,3 +70,7 @@ assets {
     minifyJs = true
     minifyCss = true
 }
+
+bootRun {
+	systemProperty 'server.port', '8086'
+ }
